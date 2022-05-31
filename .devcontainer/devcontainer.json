@@ -1,0 +1,13 @@
+{
+    "name": "Plutus Starter Project",
+    "dockerComposeFile": "docker-compose.yml",
+	"service": "haskell",
+	"workspaceFolder": "/usr/learning-haskell",
+	"shutdownAction": "stopCompose",
+	//"postCreateCommand": "curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh",
+
+    // IDs of extensions inside container
+    "extensions": [
+		"haskell.haskell"
+	]
+}

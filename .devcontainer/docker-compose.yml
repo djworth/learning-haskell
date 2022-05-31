@@ -1,0 +1,11 @@
+version: '3'
+services:
+  haskell:
+    image: haskell:8.10.7-buster
+    volumes:
+      - ../:/usr/learning-haskell
+      - "root:/root"
+    command: /bin/sh -c "while sleep 1000; do :; done"
+
+volumes:
+  root:
